@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "animals": "पशु",
+    "health_records": "स्वास्थ्य रिकॉर्ड",
+    "disease_reports": "रोग रिपोर्ट",
+    "vaccinations": "टीकाकरण",
+    "surveillance_map": "निगरानी मानचित्र",
+    "alerts": "चेतावनी",
+    "lab_management": "प्रयोगशाला प्रबंधन",
+    "users": "उपयोगकर्ता",
+    "settings": "सेटिंग्स"
+  },
+  "common": {
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "add": "जोड़ें",
+    "search": "खोजें",
+    "filter": "फ़िल्टर करें",
+    "loading": "लोड हो रहा है",
+    "no_data": "कोई डेटा नहीं",
+    "confirm": "पुष्टि करें",
+    "back": "वापस",
+    "next": "अगला",
+    "submit": "प्रस्तुत करें"
+  },
+  "auth": {
+    "login": "लॉग इन",
+    "register": "पंजीकरण करें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "forgot_password": "पासवर्ड भूल गए",
+    "logout": "लॉग आउट"
+  },
+  "animals": {
+    "tag_number": "टैग नंबर",
+    "species": "प्रजाति",
+    "breed": "नस्ल",
+    "birth_date": "जन्म तिथि",
+    "sex": "लिंग",
+    "status": "स्थिति",
+    "owner": "मालिक",
+    "add_animal": "पशु जोड़ें",
+    "edit_animal": "पशु संपादित करें",
+    "animal_details": "पशु विवरण",
+    "health_timeline": "स्वास्थ्य समयरेखा"
+  },
+  "health": {
+    "symptoms": "लक्षण",
+    "temperature": "तापमान",
+    "severity": "गंभीरता",
+    "diagnosis": "निदान",
+    "notes": "नोट्स",
+    "add_record": "रिकॉर्ड जोड़ें"
+  },
+  "reports": {
+    "suspected_disease": "संदिग्ध रोग",
+    "case_status": "मामले की स्थिति",
+    "escalate": "बढ़ाएँ",
+    "reported_by": "द्वारा रिपोर्ट किया गया",
+    "reported_at": "पर रिपोर्ट किया गया",
+    "resolve": "समाधान करें"
+  },
+  "vaccinations": {
+    "vaccine_name": "टीके का नाम",
+    "disease_target": "रोग लक्ष्य",
+    "administered_date": "दिए जाने की तिथि",
+    "next_due": "अगला देय",
+    "batch_number": "बैच नंबर",
+    "coverage": "कवरेज"
+  },
+  "alerts": {
+    "alert_type": "चेतावनी का प्रकार",
+    "active_alerts": "सक्रिय चेतावनियाँ",
+    "create_alert": "चेतावनी बनाएँ",
+    "deactivate": "निष्क्रिय करें"
+  },
+  "lab": {
+    "sample_type": "नमूना प्रकार",
+    "barcode": "बारकोड",
+    "collected_at": "एकत्रित किया गया",
+    "test_type": "परीक्षण प्रकार",
+    "result": "परिणाम",
+    "pipeline": "पाइपलाइन"
+  },
+  "map": {
+    "risk_zones": "जोखिम क्षेत्र",
+    "clusters": "समूह",
+    "heatmap": "हीटमैप",
+    "layers": "परतें",
+    "legend": "किंवदंती"
+  },
+  "sync": {
+    "syncing": "सिंक हो रहा है...",
+    "synced": "सिंक हो गया",
+    "pending": "लंबित",
+    "offline": "ऑफ़लाइन",
+    "last_synced": "अंतिम सिंक",
+    "sync_now": "अभी सिंक करें"
+  },
+  "severity": {
+    "low": "कम",
+    "moderate": "मध्यम",
+    "high": "उच्च",
+    "critical": "गंभीर"
+  },
+  "status": {
+    "healthy": "स्वस्थ",
+    "sick": "बीमार",
+    "under_treatment": "इलाज चल रहा है",
+    "quarantined": "संगरोध",
+    "deceased": "मृत"
+  },
+  "species_names": {
+    "cattle": "मवेशी",
+    "buffalo": "भैंस",
+    "goat": "बकरी",
+    "sheep": "भेड़",
+    "pig": "सूअर",
+    "poultry": "मुर्गी",
+    "horse": "घोड़ा",
+    "donkey": "गधा",
+    "camel": "ऊंट"
+  },
+  "roles": {
+    "farmer": "किसान",
+    "field_vet": "फील्ड पशु चिकित्सक",
+    "lab_tech": "प्रयोगशाला तकनीशियन",
+    "district_officer": "जिला अधिकारी",
+    "state_admin": "राज्य प्रशासक",
+    "super_admin": "सुपर प्रशासक"
+  }
+}

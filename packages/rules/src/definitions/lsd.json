@@ -1,0 +1,21 @@
+{
+  "id": "lsd",
+  "name": "Lumpy Skin Disease",
+  "target_species": ["CATTLE", "BUFFALO"],
+  "rule": {
+    "and": [
+      {"in": ["skin_nodules", {"var": "symptoms"}]},
+      {"or": [
+        {"in": ["fever", {"var": "symptoms"}]},
+        {">=": [{"var": "temperature_celsius"}, 39.5]}
+      ]},
+      {"or": [
+        {"in": ["nasal_discharge", {"var": "symptoms"}]},
+        {"in": ["eye_discharge", {"var": "symptoms"}]}
+      ]}
+    ]
+  },
+  "severity": "HIGH",
+  "action": "Isolate affected animals. Report to veterinarian. Vector control measures.",
+  "differential": []
+}
