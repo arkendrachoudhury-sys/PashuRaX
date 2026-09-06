@@ -1,0 +1,8 @@
+{
+  "name": "@pashurax/rules",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "dependencies": {
+    "json-logic-js": "^2.0.2"
+  }
+}

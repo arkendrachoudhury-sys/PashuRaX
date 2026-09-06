@@ -1,0 +1,9 @@
+{
+  "extends": "@pashurax/tsconfig/react-native.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}

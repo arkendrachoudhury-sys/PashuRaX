@@ -1,0 +1,135 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "animals": "Animals",
+    "health_records": "Health Records",
+    "disease_reports": "Disease Reports",
+    "vaccinations": "Vaccinations",
+    "surveillance_map": "Surveillance Map",
+    "alerts": "Alerts",
+    "lab_management": "Lab Management",
+    "users": "Users",
+    "settings": "Settings"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter",
+    "loading": "Loading",
+    "no_data": "No data",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password",
+    "logout": "Logout"
+  },
+  "animals": {
+    "tag_number": "Tag Number",
+    "species": "Species",
+    "breed": "Breed",
+    "birth_date": "Birth Date",
+    "sex": "Sex",
+    "status": "Status",
+    "owner": "Owner",
+    "add_animal": "Add Animal",
+    "edit_animal": "Edit Animal",
+    "animal_details": "Animal Details",
+    "health_timeline": "Health Timeline"
+  },
+  "health": {
+    "symptoms": "Symptoms",
+    "temperature": "Temperature",
+    "severity": "Severity",
+    "diagnosis": "Diagnosis",
+    "notes": "Notes",
+    "add_record": "Add Record"
+  },
+  "reports": {
+    "suspected_disease": "Suspected Disease",
+    "case_status": "Case Status",
+    "escalate": "Escalate",
+    "reported_by": "Reported By",
+    "reported_at": "Reported At",
+    "resolve": "Resolve"
+  },
+  "vaccinations": {
+    "vaccine_name": "Vaccine Name",
+    "disease_target": "Disease Target",
+    "administered_date": "Administered Date",
+    "next_due": "Next Due",
+    "batch_number": "Batch Number",
+    "coverage": "Coverage"
+  },
+  "alerts": {
+    "alert_type": "Alert Type",
+    "active_alerts": "Active Alerts",
+    "create_alert": "Create Alert",
+    "deactivate": "Deactivate"
+  },
+  "lab": {
+    "sample_type": "Sample Type",
+    "barcode": "Barcode",
+    "collected_at": "Collected At",
+    "test_type": "Test Type",
+    "result": "Result",
+    "pipeline": "Pipeline"
+  },
+  "map": {
+    "risk_zones": "Risk Zones",
+    "clusters": "Clusters",
+    "heatmap": "Heatmap",
+    "layers": "Layers",
+    "legend": "Legend"
+  },
+  "sync": {
+    "syncing": "Syncing...",
+    "synced": "Synced",
+    "pending": "Pending",
+    "offline": "Offline",
+    "last_synced": "Last Synced",
+    "sync_now": "Sync Now"
+  },
+  "severity": {
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High",
+    "critical": "Critical"
+  },
+  "status": {
+    "healthy": "Healthy",
+    "sick": "Sick",
+    "under_treatment": "Under Treatment",
+    "quarantined": "Quarantined",
+    "deceased": "Deceased"
+  },
+  "species_names": {
+    "cattle": "Cattle",
+    "buffalo": "Buffalo",
+    "goat": "Goat",
+    "sheep": "Sheep",
+    "pig": "Pig",
+    "poultry": "Poultry",
+    "horse": "Horse",
+    "donkey": "Donkey",
+    "camel": "Camel"
+  },
+  "roles": {
+    "farmer": "Farmer",
+    "field_vet": "Field Vet",
+    "lab_tech": "Lab Tech",
+    "district_officer": "District Officer",
+    "state_admin": "State Admin",
+    "super_admin": "Super Admin"
+  }
+}

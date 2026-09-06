@@ -1,0 +1,32 @@
+[project]
+name = "pashu-rax-api"
+version = "1.0.0"
+description = "FastAPI backend for PashuRaX"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy[asyncio]",
+    "asyncpg",
+    "geoalchemy2",
+    "alembic",
+    "pydantic>=2.0",
+    "pydantic-settings",
+    "python-jose[cryptography]",
+    "passlib[bcrypt]",
+    "python-multipart",
+    "redis",
+    "httpx",
+    "json-logic-qubit",
+    "shapely",
+    "pyproj"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "httpx",
+    "ruff",
+    "mypy"
+]
