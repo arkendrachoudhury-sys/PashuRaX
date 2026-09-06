@@ -1,0 +1,15 @@
+{
+  "id": "anthrax",
+  "name": "Anthrax",
+  "target_species": ["CATTLE", "BUFFALO", "SHEEP", "GOAT", "HORSE"],
+  "rule": {
+    "and": [
+      {"in": ["sudden_death", {"var": "symptoms"}]},
+      {"in": ["blood_from_orifices", {"var": "symptoms"}]}
+    ]
+  },
+  "severity": "CRITICAL",
+  "biosafety_alert": "ANTHRAX_BIOHAZARD",
+  "action": "DO NOT OPEN CARCASS. DO NOT PERFORM NECROPSY. Cover carcass, cordon area, alert District Biosafety Officer.",
+  "differential": []
+}

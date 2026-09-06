@@ -1,0 +1,6 @@
+{
+  "extends": "@pashurax/tsconfig/base.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  }
+}

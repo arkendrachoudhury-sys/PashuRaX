@@ -1,0 +1,21 @@
+{
+  "id": "ppr",
+  "name": "Peste des Petits Ruminants",
+  "target_species": ["SHEEP", "GOAT"],
+  "rule": {
+    "and": [
+      {">=": [{"var": "temperature_celsius"}, 40.5]},
+      {"or": [
+        {"in": ["nasal_discharge", {"var": "symptoms"}]},
+        {"in": ["eye_discharge", {"var": "symptoms"}]}
+      ]},
+      {"or": [
+        {"in": ["diarrhea", {"var": "symptoms"}]},
+        {"in": ["oral_lesions", {"var": "symptoms"}]}
+      ]}
+    ]
+  },
+  "severity": "HIGH",
+  "action": "Isolate affected animals. Alert veterinarian. Check vaccination status.",
+  "differential": []
+}

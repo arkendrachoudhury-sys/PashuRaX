@@ -1,0 +1,19 @@
+{
+  "id": "fmd",
+  "name": "Foot-and-Mouth Disease",
+  "target_species": ["CATTLE", "BUFFALO", "SHEEP", "GOAT", "PIG"],
+  "rule": {
+    "and": [
+      {">=": [{"var": "temperature_celsius"}, 40.0]},
+      {"or": [
+        {"in": ["oral_vesicles", {"var": "symptoms"}]},
+        {"in": ["hoof_lesions", {"var": "symptoms"}]},
+        {"in": ["blisters_on_teats", {"var": "symptoms"}]}
+      ]},
+      {"in": ["drooling_salivation", {"var": "symptoms"}]}
+    ]
+  },
+  "severity": "CRITICAL",
+  "action": "Immediate herd isolation. Alert District Vet. Do not move animals.",
+  "differential": ["Lumpy Skin Disease", "Vesicular Stomatitis", "Bluetongue"]
+}

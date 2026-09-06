@@ -1,0 +1,9 @@
+{
+  "expo": {
+    "name": "PashuRaX",
+    "slug": "pashurax",
+    "version": "1.0.0",
+    "scheme": "pashurax",
+    "plugins": ["expo-router"]
+  }
+}

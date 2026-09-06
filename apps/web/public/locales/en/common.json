@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "animals": "Animals",
+    "healthRecords": "Health Records",
+    "diseaseReports": "Disease Reports",
+    "vaccinations": "Vaccinations",
+    "surveillanceMap": "Surveillance Map",
+    "alerts": "Alerts",
+    "lab": "Lab Management",
+    "users": "Users",
+    "settings": "Settings"
+  }
+}

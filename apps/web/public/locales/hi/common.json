@@ -1,0 +1,14 @@
+{
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "animals": "पशु",
+    "healthRecords": "स्वास्थ्य रिकॉर्ड",
+    "diseaseReports": "रोग रिपोर्ट",
+    "vaccinations": "टीकाकरण",
+    "surveillanceMap": "निगरानी मानचित्र",
+    "alerts": "अलर्ट",
+    "lab": "लैब प्रबंधन",
+    "users": "उपयोगकर्ता",
+    "settings": "सेटिंग्स"
+  }
+}

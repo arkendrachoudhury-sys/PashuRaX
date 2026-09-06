@@ -1,0 +1,18 @@
+{
+  "id": "brucellosis",
+  "name": "Brucellosis",
+  "target_species": ["CATTLE", "BUFFALO", "GOAT", "SHEEP"],
+  "rule": {
+    "and": [
+      {"in": ["abortion", {"var": "symptoms"}]},
+      {"or": [
+        {"in": ["swollen_joints", {"var": "symptoms"}]},
+        {"in": ["reduced_milk", {"var": "symptoms"}]},
+        {"in": ["fever", {"var": "symptoms"}]}
+      ]}
+    ]
+  },
+  "severity": "HIGH",
+  "action": "Do not handle aborted material without gloves. Zoonotic risk. Alert veterinarian for testing.",
+  "differential": []
+}
