@@ -16,7 +16,7 @@ Livestock disease outbreaks pose significant threats to global food security, ag
 
 | Release Version | Package Name | Specification | Direct Download Link |
 | :--- | :--- | :--- | :--- |
-| **v1.0 (Latest)** | `PashuRaX_v1.0` | Standalone Parsed & Packed Standalone Application (Offline-First Production Build) | [Download PashuRaX_v1.0 Application Package](https://github.com/PashuRaX/releases/download/v1.0/PashuRaX_v1.0.apk) |
+| **v1.0 (Latest)** | `PashuRaX_v1.0` | Standalone Parsed & Packed Standalone Application (Offline-First Production Build) | [Download PashuRaX_v1.0 Application Package](./releases/v1.0/PashuRaX_v1.0.apk) |
 
 ---
 
